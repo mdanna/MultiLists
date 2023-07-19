@@ -1,0 +1,156 @@
+{
+    "keys": [
+        "i18n.add",
+        "i18n.add.item",
+        "i18n.item",
+        "i18n.items",
+        "i18n.language.de",
+        "i18n.language.en",
+        "i18n.language.es",
+        "i18n.language.fr",
+        "i18n.language.it",
+        "i18n.language.pt",
+        "i18n.lists",
+        "i18n.settings"
+    ],
+    "locales": {
+        "de": {
+            "i18nStrings": {
+                "i18n.add": "Hinzufügen",
+                "i18n.add.item": "Artikel hinzufügen",
+                "i18n.item": "Artikel",
+                "i18n.items": "Artikel",
+                "i18n.language.de": "Deutsch",
+                "i18n.language.en": "Englisch",
+                "i18n.language.es": "Spanisch",
+                "i18n.language.fr": "Französisch",
+                "i18n.language.it": "Italienisch",
+                "i18n.language.pt": "Portugiesisch",
+                "i18n.lists": "Listen",
+                "i18n.settings": "Sprache"
+            },
+            "isCustomLocale": false,
+            "isSelected": true,
+            "layoutConfig": {
+                "mirrorContentAlignment": false,
+                "mirrorFlexPositionProperties": false,
+                "mirrorFlowHorizontalAlignment": false
+            }
+        },
+        "en": {
+            "i18nStrings": {
+                "i18n.add": "Add",
+                "i18n.add.item": "Add Item",
+                "i18n.item": "Item",
+                "i18n.items": "Items",
+                "i18n.language.de": "German",
+                "i18n.language.en": "English",
+                "i18n.language.es": "Spanish",
+                "i18n.language.fr": "French",
+                "i18n.language.it": "Italian",
+                "i18n.language.pt": "Portuguese",
+                "i18n.lists": "Lists",
+                "i18n.settings": "Language"
+            },
+            "isCustomLocale": false,
+            "isSelected": true,
+            "layoutConfig": {
+                "mirrorContentAlignment": false,
+                "mirrorFlexPositionProperties": false,
+                "mirrorFlowHorizontalAlignment": false
+            }
+        },
+        "es": {
+            "i18nStrings": {
+                "i18n.add": "Añadir",
+                "i18n.add.item": "Añadir artículo",
+                "i18n.item": "Artículo",
+                "i18n.items": "Artículos",
+                "i18n.language.de": "Alemán",
+                "i18n.language.en": "Inglés",
+                "i18n.language.es": "Español",
+                "i18n.language.fr": "Francés",
+                "i18n.language.it": "Italiano",
+                "i18n.language.pt": "Portugués",
+                "i18n.lists": "Listas",
+                "i18n.settings": "Idioma"
+            },
+            "isCustomLocale": false,
+            "isSelected": true,
+            "layoutConfig": {
+                "mirrorContentAlignment": false,
+                "mirrorFlexPositionProperties": false,
+                "mirrorFlowHorizontalAlignment": false
+            }
+        },
+        "fr": {
+            "i18nStrings": {
+                "i18n.add": "Ajouter",
+                "i18n.add.item": "Ajouter un item",
+                "i18n.item": "Item",
+                "i18n.items": "Items",
+                "i18n.language.de": "Allemand",
+                "i18n.language.en": "Anglais",
+                "i18n.language.es": "Espagnol",
+                "i18n.language.fr": "Français",
+                "i18n.language.it": "Italien",
+                "i18n.language.pt": "Portugais",
+                "i18n.lists": "Listes",
+                "i18n.settings": "Langue"
+            },
+            "isCustomLocale": false,
+            "isSelected": true,
+            "layoutConfig": {
+                "mirrorContentAlignment": false,
+                "mirrorFlexPositionProperties": false,
+                "mirrorFlowHorizontalAlignment": false
+            }
+        },
+        "it": {
+            "i18nStrings": {
+                "i18n.add": "Aggiungere",
+                "i18n.add.item": "Aggiungere un articolo",
+                "i18n.item": "Articolo",
+                "i18n.items": "Articoli",
+                "i18n.language.de": "Tedesco",
+                "i18n.language.en": "Inglese",
+                "i18n.language.es": "Spagnolo",
+                "i18n.language.fr": "Francese",
+                "i18n.language.it": "Italiano",
+                "i18n.language.pt": "Portoghese",
+                "i18n.lists": "Liste",
+                "i18n.settings": "Lingua"
+            },
+            "isCustomLocale": false,
+            "isSelected": true,
+            "layoutConfig": {
+                "mirrorContentAlignment": false,
+                "mirrorFlexPositionProperties": false,
+                "mirrorFlowHorizontalAlignment": false
+            }
+        },
+        "pt": {
+            "i18nStrings": {
+                "i18n.add": "Adicionar",
+                "i18n.add.item": "Adicionar Item",
+                "i18n.item": "Item",
+                "i18n.items": "Items",
+                "i18n.language.de": "Alemão",
+                "i18n.language.en": "Inglês",
+                "i18n.language.es": "Espanhol",
+                "i18n.language.fr": "Francês",
+                "i18n.language.it": "Italiano",
+                "i18n.language.pt": "Português",
+                "i18n.lists": "Listas",
+                "i18n.settings": "Idioma"
+            },
+            "isCustomLocale": false,
+            "isSelected": true,
+            "layoutConfig": {
+                "mirrorContentAlignment": false,
+                "mirrorFlexPositionProperties": false,
+                "mirrorFlowHorizontalAlignment": false
+            }
+        }
+    }
+}

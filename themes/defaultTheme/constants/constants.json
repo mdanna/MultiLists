@@ -1,0 +1,29 @@
+{
+    "darkGreen": {
+        "color": {
+            "value": "006875ff"
+        },
+        "colorType": {
+            "value": "one"
+        },
+        "type": "color"
+    },
+    "green": {
+        "color": {
+            "value": "61c992ff"
+        },
+        "colorType": {
+            "value": "one"
+        },
+        "type": "color"
+    },
+    "lightPurple": {
+        "color": {
+            "value": "c791eeff"
+        },
+        "colorType": {
+            "value": "one"
+        },
+        "type": "color"
+    }
+}

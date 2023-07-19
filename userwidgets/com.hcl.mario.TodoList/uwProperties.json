@@ -1,0 +1,98 @@
+{
+    "classname": "TodoList",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "bd0faf2b805344db9eb0829c495e55e7",
+                    "paramList": [],
+                    "propertyIndex": 4,
+                    "propertyKey": "onClickDelete",
+                    "pw": {
+                        "displayName": "onClickDelete",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u96f831df1e147a5aa0613f4b3078e45",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "b7996483469a444a8f7497cc976371ff",
+                    "paramList": [],
+                    "propertyIndex": 5,
+                    "propertyKey": "onClickHome",
+                    "pw": {
+                        "displayName": "onClickHome",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u96f831df1e147a5aa0613f4b3078e45",
+                    "type": "event"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f85b12c00f1d4be78fc343a544c2d294",
+                    "originalPropertyKey": "onTextChange",
+                    "propertyIndex": 3,
+                    "propertyKey": "onTextChange",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onTextChange",
+                        "srcWidget": "txtList",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "ue9d3d7459e44bbfaa593af5ba963f5a",
+                    "translateAtInstance": false
+                }
+            ]
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d2381bde8b0f4aa7813f982336faeaa4",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "text",
+                        "isHiddenInTool": false,
+                        "srcWidget": "txtList",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "ue9d3d7459e44bbfaa593af5ba963f5a"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.mario",
+    "version": "1.0.0"
+}

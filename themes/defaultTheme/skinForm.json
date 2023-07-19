@@ -1,0 +1,14 @@
+{
+    "background_color": "006875ff",
+    "bg_type": "one",
+    "border_color": "ffffffff",
+    "constants": {
+        "background_color": {
+            "key": "color",
+            "value": "${themes.darkGreen}"
+        }
+    },
+    "isDefaultSkin": false,
+    "kuid": "sa8f409d53784ae1a2323c80f07e663a",
+    "wType": "Form"
+}

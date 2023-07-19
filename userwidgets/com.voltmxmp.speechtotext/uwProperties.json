@@ -1,0 +1,459 @@
+{
+    "classname": "speechtotext",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "android",
+                    "kuid": "gb8b31c3a37449358ca02bfa43be8aad",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "onBeginningOfSpeech",
+                    "pw": {
+                        "displayName": "onBeginningOfSpeech",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ubf5134a725e406a8258c1de4406712d",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "ac950ae9a91e4488a7a69a8d6b35de0f",
+                    "paramList": [
+                        {
+                            "name": "speechText"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "partialSpeechResults",
+                    "pw": {
+                        "displayName": "partialSpeechResults",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ubf5134a725e406a8258c1de4406712d",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "ja0b3d4f05234613a889e7a401a0f828",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "onMicClick",
+                    "pw": {
+                        "displayName": "onMicClick",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ubf5134a725e406a8258c1de4406712d",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "c31e5dda74304a44a8bab8821f9c1737",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "onCancelClick",
+                    "pw": {
+                        "displayName": "onCancelClick",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ubf5134a725e406a8258c1de4406712d",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "b64274a6e60e49e3b9ba03eed3f26571",
+                    "paramList": [
+                        {
+                            "name": "speechText"
+                        }
+                    ],
+                    "propertyIndex": 2,
+                    "propertyKey": "speechCallback",
+                    "pw": {
+                        "displayName": "speechCallback",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ubf5134a725e406a8258c1de4406712d",
+                    "type": "event"
+                },
+                {
+                    "group": "android",
+                    "kuid": "a3679a9d49184c18999ffc9342347f81",
+                    "paramList": [
+                        {
+                            "name": "v"
+                        }
+                    ],
+                    "propertyIndex": 2,
+                    "propertyKey": "onRmsChanged",
+                    "pw": {
+                        "displayName": "onRmsChanged",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ubf5134a725e406a8258c1de4406712d",
+                    "type": "event"
+                },
+                {
+                    "group": "android",
+                    "kuid": "aba8e2bf200b4bc588fa142a14c8cab9",
+                    "paramList": [
+                        {
+                            "name": "code"
+                        }
+                    ],
+                    "propertyIndex": 3,
+                    "propertyKey": "onError",
+                    "pw": {
+                        "displayName": "onError",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ubf5134a725e406a8258c1de4406712d",
+                    "type": "event"
+                },
+                {
+                    "group": "android",
+                    "kuid": "e82dee5932864596812935a2cfa43690",
+                    "paramList": [
+                        {
+                            "name": "bytes"
+                        }
+                    ],
+                    "propertyIndex": 4,
+                    "propertyKey": "onBufferReceived",
+                    "pw": {
+                        "displayName": "onBufferReceived",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ubf5134a725e406a8258c1de4406712d",
+                    "type": "event"
+                },
+                {
+                    "group": "android",
+                    "kuid": "ef3d5c22474e4ca29efffe7cc0cf7b4c",
+                    "paramList": [
+                        {
+                            "name": "i"
+                        },
+                        {
+                            "name": "bundle"
+                        }
+                    ],
+                    "propertyIndex": 6,
+                    "propertyKey": "onEvent",
+                    "pw": {
+                        "displayName": "onEvent",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ubf5134a725e406a8258c1de4406712d",
+                    "type": "event"
+                },
+                {
+                    "group": "android",
+                    "kuid": "ab4eedca683f4ab4b5994b4a5ab65e2d",
+                    "paramList": [
+                        {
+                            "name": "bundle"
+                        }
+                    ],
+                    "propertyIndex": 7,
+                    "propertyKey": "onReadyForSpeech",
+                    "pw": {
+                        "displayName": "onReadyForSpeech",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ubf5134a725e406a8258c1de4406712d",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [
+                "android"
+            ],
+            "properties": [
+                "android",
+                "IPhone",
+                "Desktop Web"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "com.voltmxmp.speechtotext",
+                    "group": "android",
+                    "kuid": "g97cf7b180b24c2aa5ae8079d4bfa0d5",
+                    "originalPropertyKey": "packageName",
+                    "propertyIndex": 1,
+                    "propertyKey": "packageName",
+                    "pw": {
+                        "displayName": "package name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ubf5134a725e406a8258c1de4406712d",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "en-US",
+                    "group": "IPhone",
+                    "kuid": "b8a01b89992b41658683211a183f7deb",
+                    "originalPropertyKey": "setIphoneLanguage",
+                    "propertyIndex": 1,
+                    "propertyKey": "setIphoneLanguage",
+                    "pw": {
+                        "displayName": "Language",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ubf5134a725e406a8258c1de4406712d",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "en-US",
+                    "group": "Desktop Web",
+                    "kuid": "h655ec9c6c6a4380a8beb0d5bcee8a63",
+                    "originalPropertyKey": "setWebLanguage",
+                    "propertyIndex": 1,
+                    "propertyKey": "setWebLanguage",
+                    "pw": {
+                        "displayName": "Language",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ubf5134a725e406a8258c1de4406712d",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "en-US",
+                    "group": "android",
+                    "kuid": "dbcfce63d7f843a38907a8b83903dc95",
+                    "originalPropertyKey": "setAndroidLanguage",
+                    "propertyIndex": 2,
+                    "propertyKey": "setAndroidLanguage",
+                    "pw": {
+                        "displayName": "Language",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ubf5134a725e406a8258c1de4406712d",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "h8f5cfb5ace64c989af9b3ec03a7745d",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 1,
+                    "propertyKey": "cancelImage",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Cancel image",
+                        "srcWidget": "imgCancel",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "uf21e213e1364f18818e532a05f84fab"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f7b116fe7b7d49ee9d31473f68778b79",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 2,
+                    "propertyKey": "listeningGIF",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Listening GIF",
+                        "srcWidget": "imgGif",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "u41c54bcf2be4193a412086345637696"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f8e8901497f948eb81aba0c5493b65f2",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 3,
+                    "propertyKey": "listeningText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Listening Text",
+                        "srcWidget": "lblListening",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "u508448234c2455ca67165035a6bf4ed"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c1b7840e42734399b61a45bd5c345fa2",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 4,
+                    "propertyKey": "listeningFlex",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Flex",
+                        "srcWidget": "flxAnim",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "ua030eb32eae4accb4f6b9e471245b98"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "bad6cf605b874439864d6209b29f8bbb",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 5,
+                    "propertyKey": "listeningLabel",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Label",
+                        "srcWidget": "lblListening",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "u508448234c2455ca67165035a6bf4ed"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b39013ae18ce43eb9481a4e77495156b",
+                    "originalPropertyKey": "imageScaleMode",
+                    "propertyIndex": 6,
+                    "propertyKey": "imageScaleMode",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Mic Image Scale Mode",
+                        "srcWidget": "imgMicrophone",
+                        "type": "enum",
+                        "uiRepresentation": "Label-Combobox",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "ucff009a826349fa8e091311db048474"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "g4a02ed3ebca4d7094c86c8f058c58a4",
+                    "originalPropertyKey": "imageScaleMode",
+                    "propertyIndex": 7,
+                    "propertyKey": "imageScaleMode1",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Cancel Image Scale Mode",
+                        "srcWidget": "imgCancel",
+                        "type": "enum",
+                        "uiRepresentation": "Label-Combobox",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "uf21e213e1364f18818e532a05f84fab"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e33fcb3e922343428410f7df8e7d9612",
+                    "originalPropertyKey": "imageScaleMode",
+                    "propertyIndex": 8,
+                    "propertyKey": "imageScaleMode2",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "GIF Image Scale Mode",
+                        "srcWidget": "imgGif",
+                        "type": "enum",
+                        "uiRepresentation": "Label-Combobox",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "u41c54bcf2be4193a412086345637696"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c77b5b98d55a45d3b6016dee3708632c",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 9,
+                    "propertyKey": "micImage",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Mic image",
+                        "srcWidget": "imgMicrophone",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "ucff009a826349fa8e091311db048474"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.voltmxmp",
+    "version": "2.0.2"
+}

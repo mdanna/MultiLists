@@ -1,0 +1,157 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_bounces_": false,
+    "_data_": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "00",
+    "desktop": {
+        "_data_": [
+            {
+                "imgLanguage": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "it.png"
+                },
+                "lblLanguage": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                }
+            }
+        ],
+        "rowTemplateId": "d21af860852a4674a27775161d48ded0",
+        "rowtemplate": "Flex0bffeed9005b247",
+        "widgetdatamap": {
+            "flxIconLanguage": "flxIconLanguage",
+            "flxLanguageSelector": "flxLanguageSelector",
+            "imgLanguage": "imgLanguage",
+            "lblLanguage": "lblLanguage"
+        }
+    },
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segLanguageSelector",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "bounces": false,
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "uac47e94ce614217a62e539c199310b9",
+    "masterdata": {},
+    "mobile": {
+        "_data_": [
+            {
+                "imgLanguage": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": ""
+                },
+                "lblLanguage": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                }
+            }
+        ],
+        "rowTemplateId": "ib46b48faab84d05bdb50a54c27476e9",
+        "rowtemplate": "CopyflxLanguageSelector0j693906445ab48",
+        "widgetdatamap": {
+            "flxIconLanguage": "flxIconLanguage",
+            "flxLanguageSelector": "flxLanguageSelector",
+            "imgLanguage": "imgLanguage",
+            "lblLanguage": "lblLanguage"
+        }
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxSegment",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowcounter": 0,
+    "rowfocusskin": null,
+    "rowskin": "sc48d31929f745609bc32d227847df49",
+    "rowtemplate": null,
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "sc789bf4c3d441f29cdcf32314edf322",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": false,
+    "separatorthickness": 0,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "CopyflxLanguageSelector0j693906445ab48": "CopyflxLanguageSelector0j693906445ab48",
+        "flxIconLanguage": "flxIconLanguage",
+        "imgLanguage": "imgLanguage",
+        "lblLanguage": "lblLanguage"
+    },
+    "zindex": 1
+}
