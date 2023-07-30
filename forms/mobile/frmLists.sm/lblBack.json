@@ -17,7 +17,7 @@
         0,
         0
     ],
-    "_skin_": "sae533a8b42e454d9cd28fef161a5800",
+    "_skin_": "s2925fe1df35459fa06dfa90dc906e3c",
     "_text_": "s",
     "_width_": {
         "type": "string",
@@ -33,7 +33,7 @@
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
-        "value": "45%"
+        "value": "50%"
     },
     "centery": {
         "type": "string",

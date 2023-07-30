@@ -6,6 +6,10 @@
         "type": "string",
         "value": "53dp"
     },
+    "_left_": {
+        "type": "number",
+        "value": "10"
+    },
     "_margin_": [
         0,
         0,
@@ -21,10 +25,10 @@
     ],
     "_percent_": true,
     "_right_": {
-        "type": "string",
-        "value": "30dp"
+        "type": "number",
+        "value": "10"
     },
-    "_skin_": "s565267728d8437496352b6b06589fa3",
+    "_skin_": "sc421020134c4624bc9b4e7f03da0900",
     "_top_": {
         "type": "string",
         "value": "120dp"
@@ -39,11 +43,11 @@
     "id": "speechtotext",
     "info": null,
     "isvisible": true,
-    "kuid": "ucb6951de74d4a6fb343d1056f1831fd",
+    "kuid": "a7bdbe19358746568af00cd413604ae1",
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
     "parent": "flxAddTask",
     "pf": "userwidgetmodel",
-    "sourceUserWidget": "ubf5134a725e406a8258c1de4406712d",
+    "sourceUserWidget": "uee33dee20804c44a7579e65754279f3",
     "wType": "UserWidgetInstance"
 }

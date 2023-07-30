@@ -99,6 +99,135 @@
     "applepushfunc": "None",
     "apploadeventkey": "None",
     "applogokey": "",
+    "appmenu": {
+        "desktop": {
+            "data": [
+                {
+                    "icon": {
+                        "default": "option1.png"
+                    },
+                    "id": "appmenuitemid1",
+                    "kuid": "db537318455a41c7ab83f9e343fe3c3c",
+                    "title": "Item 1"
+                },
+                {
+                    "icon": {
+                        "default": "option2.png"
+                    },
+                    "id": "appmenuitemid2",
+                    "kuid": "b10cd2573ba647f9ac35cef94b86e3f8",
+                    "title": "Item 2"
+                },
+                {
+                    "icon": {
+                        "default": "option3.png"
+                    },
+                    "id": "appmenuitemid3",
+                    "kuid": "bdcc82c124a74bbc9771487c669ef592",
+                    "title": "Item 3"
+                },
+                {
+                    "icon": {
+                        "default": "option4.png"
+                    },
+                    "id": "appmenuitemid4",
+                    "kuid": "aac0183b01fc470e8de4f6cd20efd174",
+                    "title": "Item 4"
+                }
+            ]
+        },
+        "focusSkin": null,
+        "focusskin": null,
+        "mobile": {
+            "data": [
+                {
+                    "icon": {
+                        "default": "option1.png"
+                    },
+                    "id": "appmenuitemid1",
+                    "kuid": "f46e28186bb14f988978338ffda182df",
+                    "title": "Item 1"
+                },
+                {
+                    "icon": {
+                        "default": "option2.png"
+                    },
+                    "id": "appmenuitemid2",
+                    "kuid": "a3b04f6b048a41999514d4b43f6bf99d",
+                    "title": "Item 2"
+                },
+                {
+                    "icon": {
+                        "default": "option3.png"
+                    },
+                    "id": "appmenuitemid3",
+                    "kuid": "c8030eaae76a4821a59dadef76f6f5f2",
+                    "title": "Item 3"
+                },
+                {
+                    "icon": {
+                        "default": "option4.png"
+                    },
+                    "id": "appmenuitemid4",
+                    "kuid": "a53f833028f440ce8cbe00ab6c2fec1e",
+                    "title": "Item 4"
+                }
+            ]
+        },
+        "skin": null,
+        "tablet": {
+            "data": [
+                {
+                    "icon": {
+                        "default": "option1.png"
+                    },
+                    "id": "appmenuitemid1",
+                    "kuid": "bc8a9dab8a2d4c0592b97538ece92957",
+                    "title": "Item 1",
+                    "windows8": {
+                        "appBarButtonStyle": "No Style",
+                        "position": "BOTTOM_LEFT"
+                    }
+                },
+                {
+                    "icon": {
+                        "default": "option2.png"
+                    },
+                    "id": "appmenuitemid2",
+                    "kuid": "d5b6094f064747a0800cb39a41b9bd70",
+                    "title": "Item 2",
+                    "windows8": {
+                        "appBarButtonStyle": "No Style",
+                        "position": "BOTTOM_LEFT"
+                    }
+                },
+                {
+                    "icon": {
+                        "default": "option3.png"
+                    },
+                    "id": "appmenuitemid3",
+                    "kuid": "cc1652f0c43e46ecbe59cd8d94adc068",
+                    "title": "Item 3",
+                    "windows8": {
+                        "appBarButtonStyle": "No Style",
+                        "position": "BOTTOM_LEFT"
+                    }
+                },
+                {
+                    "icon": {
+                        "default": "option4.png"
+                    },
+                    "id": "appmenuitemid4",
+                    "kuid": "a6b7de802053487fa4980caad4b8ce19",
+                    "title": "Item 4",
+                    "windows8": {
+                        "appBarButtonStyle": "No Style",
+                        "position": "BOTTOM_LEFT"
+                    }
+                }
+            ]
+        }
+    },
     "appnamekey": "MultiLists",
     "appointments": "false",
     "apppackagekey": "com.orgname.MultiLists",
@@ -147,7 +276,7 @@
     "currentgaversion": "9.5.11",
     "deeplinkkey": "None",
     "defaultZIndex": "1",
-    "defaultlocalekey": "de",
+    "defaultlocalekey": "en",
     "defaulttheme": "defaultTheme",
     "desktopwebaligenmentoption": "left",
     "desktopwebbasefontsize": "16",
@@ -204,7 +333,7 @@
     "fbxfolderpathkey": "",
     "fcmsenderid": "",
     "fgcolorkey": "255,255,255",
-    "generateAppBundle": true,
+    "generateAppBundle": false,
     "generateJavaCodeForForms": "false",
     "genericexceptionalert": "false",
     "gradle_properties_attrs": "",
@@ -262,7 +391,7 @@
     "isA11yConfigEnabled": false,
     "isDpScaleFactor": true,
     "isEASAppUpgradable": false,
-    "isI18nConfigEnabled": false,
+    "isI18nConfigEnabled": true,
     "isI18nLayoutConfigEnabled": false,
     "isMVC": true,
     "isNewAppWithRespectToAndroidPackageName": "true",
@@ -567,9 +696,11 @@
     "read_device_identifying_information": "false",
     "referenceWidth": "375",
     "registerForDeepLink": {
+        "androidwear": false,
         "desktop": false,
         "mobile": false,
-        "tablet": false
+        "tablet": false,
+        "watch": false
     },
     "remoteSystem": "false",
     "removableStorage": "false",
@@ -606,7 +737,7 @@
     "support_arm_32bit": false,
     "support_arm_64bit": true,
     "support_x86_32bit": false,
-    "support_x86_64bit": false,
+    "support_x86_64bit": true,
     "swiftversionkey": "None",
     "tabletBreakPointInInches": "6",
     "tags": {

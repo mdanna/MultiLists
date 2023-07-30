@@ -17,7 +17,7 @@
         0,
         0
     ],
-    "_skin_": "s4ae07576861488f951b0bb4fe9d7d0d",
+    "_skin_": "sc695a921a6a42fba49063662c8980e0",
     "_text_": "Listening...",
     "_width_": {
         "type": "ref",
@@ -54,11 +54,10 @@
         }
     },
     "isvisible": true,
-    "kuid": "u508448234c2455ca67165035a6bf4ed",
+    "kuid": "u63148091246433aaa815de5e75f80ba",
     "name": "kony.ui.Label",
     "parent": "flxAnim",
     "pf": "userwidgetmodel",
-    "textstyle": {},
     "tooltip": "",
     "wType": "Label",
     "zindex": 1

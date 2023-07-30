@@ -2,6 +2,8 @@
     "keys": [
         "i18n.add",
         "i18n.add.item",
+        "i18n.confirm.remove",
+        "i18n.enter.list",
         "i18n.item",
         "i18n.items",
         "i18n.language.de",
@@ -11,13 +13,17 @@
         "i18n.language.it",
         "i18n.language.pt",
         "i18n.lists",
-        "i18n.settings"
+        "i18n.no",
+        "i18n.settings",
+        "i18n.yes"
     ],
     "locales": {
         "de": {
             "i18nStrings": {
-                "i18n.add": "Hinzufügen",
+                "i18n.add": "OK",
                 "i18n.add.item": "Artikel hinzufügen",
+                "i18n.confirm.remove": "Bestätigen Sie das Entfernen der Liste?",
+                "i18n.enter.list": "Geben Sie den Listennamen ein",
                 "i18n.item": "Artikel",
                 "i18n.items": "Artikel",
                 "i18n.language.de": "Deutsch",
@@ -27,7 +33,9 @@
                 "i18n.language.it": "Italienisch",
                 "i18n.language.pt": "Portugiesisch",
                 "i18n.lists": "Listen",
-                "i18n.settings": "Sprache"
+                "i18n.no": "Nein",
+                "i18n.settings": "Sprache",
+                "i18n.yes": "Ja"
             },
             "isCustomLocale": false,
             "isSelected": true,
@@ -39,8 +47,10 @@
         },
         "en": {
             "i18nStrings": {
-                "i18n.add": "Add",
+                "i18n.add": "OK",
                 "i18n.add.item": "Add Item",
+                "i18n.confirm.remove": "Confirm List Removal ?",
+                "i18n.enter.list": "Enter list name",
                 "i18n.item": "Item",
                 "i18n.items": "Items",
                 "i18n.language.de": "German",
@@ -50,7 +60,9 @@
                 "i18n.language.it": "Italian",
                 "i18n.language.pt": "Portuguese",
                 "i18n.lists": "Lists",
-                "i18n.settings": "Language"
+                "i18n.no": "No",
+                "i18n.settings": "Language",
+                "i18n.yes": "Yes"
             },
             "isCustomLocale": false,
             "isSelected": true,
@@ -62,8 +74,10 @@
         },
         "es": {
             "i18nStrings": {
-                "i18n.add": "Añadir",
+                "i18n.add": "OK",
                 "i18n.add.item": "Añadir artículo",
+                "i18n.confirm.remove": "¿Confirmas la eliminación de la lista?",
+                "i18n.enter.list": "Ingrese el nombre de la lista",
                 "i18n.item": "Artículo",
                 "i18n.items": "Artículos",
                 "i18n.language.de": "Alemán",
@@ -73,7 +87,9 @@
                 "i18n.language.it": "Italiano",
                 "i18n.language.pt": "Portugués",
                 "i18n.lists": "Listas",
-                "i18n.settings": "Idioma"
+                "i18n.no": "No",
+                "i18n.settings": "Idioma",
+                "i18n.yes": "Sí"
             },
             "isCustomLocale": false,
             "isSelected": true,
@@ -85,8 +101,10 @@
         },
         "fr": {
             "i18nStrings": {
-                "i18n.add": "Ajouter",
+                "i18n.add": "OK",
                 "i18n.add.item": "Ajouter un item",
+                "i18n.confirm.remove": "Confirmez-vous la suppression de la liste ?",
+                "i18n.enter.list": "Rentrer le nom de la liste",
                 "i18n.item": "Item",
                 "i18n.items": "Items",
                 "i18n.language.de": "Allemand",
@@ -96,7 +114,9 @@
                 "i18n.language.it": "Italien",
                 "i18n.language.pt": "Portugais",
                 "i18n.lists": "Listes",
-                "i18n.settings": "Langue"
+                "i18n.no": "Non",
+                "i18n.settings": "Langue",
+                "i18n.yes": "Oui"
             },
             "isCustomLocale": false,
             "isSelected": true,
@@ -108,8 +128,10 @@
         },
         "it": {
             "i18nStrings": {
-                "i18n.add": "Aggiungere",
+                "i18n.add": "OK",
                 "i18n.add.item": "Aggiungere un articolo",
+                "i18n.confirm.remove": "Confermi la rimozione della lista",
+                "i18n.enter.list": "Inserire il nome della lista",
                 "i18n.item": "Articolo",
                 "i18n.items": "Articoli",
                 "i18n.language.de": "Tedesco",
@@ -119,7 +141,9 @@
                 "i18n.language.it": "Italiano",
                 "i18n.language.pt": "Portoghese",
                 "i18n.lists": "Liste",
-                "i18n.settings": "Lingua"
+                "i18n.no": "No",
+                "i18n.settings": "Lingua",
+                "i18n.yes": "Sí"
             },
             "isCustomLocale": false,
             "isSelected": true,
@@ -131,8 +155,10 @@
         },
         "pt": {
             "i18nStrings": {
-                "i18n.add": "Adicionar",
+                "i18n.add": "OK",
                 "i18n.add.item": "Adicionar Item",
+                "i18n.confirm.remove": "Você confirma a remoção da lista?",
+                "i18n.enter.list": "Digite o nome da lista",
                 "i18n.item": "Item",
                 "i18n.items": "Items",
                 "i18n.language.de": "Alemão",
@@ -142,7 +168,9 @@
                 "i18n.language.it": "Italiano",
                 "i18n.language.pt": "Português",
                 "i18n.lists": "Listas",
-                "i18n.settings": "Idioma"
+                "i18n.no": "Não",
+                "i18n.settings": "Idioma",
+                "i18n.yes": "Sim"
             },
             "isCustomLocale": false,
             "isSelected": true,

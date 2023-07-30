@@ -22,7 +22,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s565267728d8437496352b6b06589fa3",
+    "_skin_": "sc421020134c4624bc9b4e7f03da0900",
     "_top_": {
         "type": "string",
         "value": "0%"
@@ -41,10 +41,10 @@
     "containerweight": 100,
     "enablescrolling": true,
     "id": "flxMicrophone",
-    "ide_onClick": "AS_FlexContainer_hffc9610c8ab4980b2098bc27611965b",
+    "ide_onClick": "AS_FlexContainer_dfc2b1ac1b2f480dac8d232a204f2527",
     "info": null,
     "isvisible": true,
-    "kuid": "u7b89a4caf254b5781157ac73958cb3f",
+    "kuid": "u5707473b47e440b8b0fa40b70ea19cc",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
     "parent": "speechtotext",

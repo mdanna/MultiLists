@@ -22,11 +22,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s81290709365418c832defde5e5706d7",
-    "_top_": {
-        "type": "string",
-        "value": "10%"
-    },
+    "_skin_": "sadee9b1f8484721804d0e75acc401f6",
     "_width_": {
         "type": "string",
         "value": "12%"
@@ -34,6 +30,10 @@
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
     "children": [
         "imgCancel"
     ],
@@ -41,10 +41,10 @@
     "containerweight": 100,
     "enablescrolling": true,
     "id": "flxCancel",
-    "ide_onClick": "AS_FlexContainer_c7412391f42340a1a582fe04e0ff638b",
+    "ide_onClick": "AS_FlexContainer_a1b10c088cd442b2982b9e11e518877a",
     "info": null,
     "isvisible": true,
-    "kuid": "ub7824dd01e44c098d4d7cb400c1f8bf",
+    "kuid": "u0cf067b397844eb9aab573e9fb9ff7d",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
     "parent": "flxAnim",

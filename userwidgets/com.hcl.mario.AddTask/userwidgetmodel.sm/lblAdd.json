@@ -22,7 +22,7 @@
         0
     ],
     "_skin_": "s4cd9c6368234240b4affcf397386efd",
-    "_text_": "Add",
+    "_text_": "OK",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -61,7 +61,6 @@
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "texti18n": "i18n.add",
     "textstyle": {},
     "tooltip": "",
     "wType": "Label",

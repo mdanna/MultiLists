@@ -57,6 +57,7 @@
     "name": "kony.ui.TextBox2",
     "parent": "TodoList",
     "pf": "userwidgetmodel",
+    "placeholderi18n": "i18n.enter.list",
     "placeholderskin": "sa8473eccea24536b2ce25cff6fc2528",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

@@ -38,10 +38,11 @@
     "allboxes": [],
     "canUpdateUI": true,
     "children": [
+        "flxClose",
         "lblAddTask",
         "flxAddTaskName",
-        "speechtotext",
-        "flxAdd"
+        "flxAdd",
+        "speechtotext"
     ],
     "clipbounds": false,
     "containerweight": 100,

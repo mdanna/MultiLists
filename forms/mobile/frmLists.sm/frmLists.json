@@ -34,7 +34,8 @@
     "canUpdateUI": true,
     "children": [
         "flxHeader",
-        "flxLists"
+        "flxLists",
+        "cmpConfirm"
     ],
     "containerweight": 100,
     "controllerInfo": {

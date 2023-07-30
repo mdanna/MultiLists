@@ -22,10 +22,13 @@ define({
     };
 
     this.view.preShow = () => {
-      const currentList = this.navigationContext;
+      this.navigationContext && voltmx.store.setItem('currentList', this.navigationContext);
       if(!voltmx.store.getItem('lists') || !voltmx.store.getItem('lists').length){
         this.lists = [];
+      } else {
+        this.lists = voltmx.store.getItem('lists');
       }
+      
       if(this.lists.length === 0){
         const listId = `list${new Date().getTime()}`;
         this.currentList = listId;
@@ -36,8 +39,9 @@ define({
         voltmx.store.setItem('currentList', listId);
         voltmx.store.setItem('lists', this.lists);
       } else {
-        this.currentList = currentList || voltmx.store.getItem('currentList') || this.lists[0].id;
+        this.currentList = voltmx.store.getItem('currentList') || this.lists[0].id;
       }
+      this.lists = voltmx.store.getItem('lists');
       this.tasks = voltmx.store.getItem(`tasks_${this.currentList}`) || [];
     };
 

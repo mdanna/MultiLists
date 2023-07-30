@@ -22,7 +22,7 @@
         0,
         0
     ],
-    "_skin_": "s4f4fb00e9b2400792ed1b262383bca7",
+    "_skin_": "s242c5e524d64b3aaf47b0db9b7713aa",
     "_src_": "voltmxmp_stt_microphone.png",
     "_top_": {
         "type": "string",
@@ -38,7 +38,7 @@
     "imagescalemode": 1,
     "info": null,
     "isvisible": true,
-    "kuid": "ucff009a826349fa8e091311db048474",
+    "kuid": "ucca214e54aa4f34a3c900443f12f768",
     "name": "kony.ui.Image2",
     "parent": "flxMicrophone",
     "pf": "userwidgetmodel",

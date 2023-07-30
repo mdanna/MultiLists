@@ -7,6 +7,7 @@ define(function() {
       });
 
       this.view.flxBackground.onClick = () => this.toggle(false);
+      this.view.flxClose.onClick = () => this.toggle(false);
 
       this.view.flxAddTask.onClick = () => {
         const taskName = this.view.txtAddTaskName.text;

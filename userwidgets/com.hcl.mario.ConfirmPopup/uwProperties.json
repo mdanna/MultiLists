@@ -1,0 +1,58 @@
+{
+    "classname": "ConfirmPopup",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "ef43cc22e06c49b2a13a35413b88b226",
+                    "paramList": [],
+                    "propertyKey": "show",
+                    "pw": {
+                        "displayName": "show",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d6fad8751e0d4a99bcd1aa7163f1a319",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "f434ad3306164713babeb53ad26d2a23",
+                    "paramList": [],
+                    "propertyIndex": 2,
+                    "propertyKey": "onConfirm",
+                    "pw": {
+                        "displayName": "onConfirm",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d6fad8751e0d4a99bcd1aa7163f1a319",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.mario",
+    "version": "1.0.0"
+}

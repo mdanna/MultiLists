@@ -6,7 +6,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "0px"
+        "value": "30dp"
     },
     "_margin_": [
         0,
@@ -22,14 +22,18 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s876c3e3d7634ef3ad7dc5ecf346c9f3",
+    "_right_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_skin_": "s39ff3a87974422b8585b265d6452892",
     "_top_": {
         "type": "string",
         "value": "0%"
     },
     "_width_": {
-        "type": "string",
-        "value": "100%"
+        "type": "ref",
+        "value": "preferred"
     },
     "allboxes": [],
     "autogrowmode": 0,
@@ -45,7 +49,7 @@
     "id": "flxAnim",
     "info": null,
     "isvisible": false,
-    "kuid": "ua030eb32eae4accb4f6b9e471245b98",
+    "kuid": "u97269277cab483fa01f6ff5492d9398",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
     "parent": "speechtotext",
